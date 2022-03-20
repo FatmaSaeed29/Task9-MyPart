@@ -1,0 +1,465 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lalezar&family=Overpass:wght@300;600&family=Raleway:ital,wght@0,500;0,600;0,800;1,300;1,700&family=Ubuntu:ital,wght@0,400;0,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lalezar&family=Open+Sans:ital,wght@0,300;1,300;1,400;1,500&family=Overpass:wght@300;600&family=Raleway:ital,wght@0,500;0,600;0,800;1,300;1,700&family=Ubuntu:ital,wght@0,400;0,500;1,700&display=swap');
+
+body
+{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+html
+{
+    scroll-behavior: smooth;
+}
+/* Start First Section  */
+.section-one .one form button
+{
+    border-radius: 40px;
+    padding: 8px 25px;
+}
+.section-one .fix
+{
+    background-color: #fff;
+}
+.section-one .one form button:hover
+{
+    background-color: rgba(52, 152, 216, .9);
+    border-color: #3498D8;
+}
+.section-one .one ul li
+{
+    padding: 0px 10px;
+}
+.navbar-light .navbar-nav .nav-link:hover ,.dropdown-item:hover
+{
+    color: #3498D8;
+}
+/* .dropdown-item
+{
+    width: 160px;
+} */
+.section-one .h1
+{
+    font-size: 30px;
+}
+.section-one .two .row 
+{
+    margin-top: 150px;
+    padding-top: 30px;
+}
+.section-one .two .row h1
+{
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 50px;
+    color: #000;
+    font-family: 'Raleway', sans-serif;
+}
+.section-one .two .row p
+{
+    color: #484848;
+    font-size: 25px;
+    font-family: 'Raleway', sans-serif;
+}
+.section-one .two .row button:hover a , .section-one .row button:hover a
+{
+    color: #fff;
+    text-decoration: none;
+}
+.section-one .two .row button ,  .section-one .row button
+{
+    border-width: 2px;
+}
+.section-one .two .row .right img
+{
+    position: relative;
+    animation-name: bounce;
+    animation-duration: 1.5s;  
+    animation-delay: 0s;
+    animation-fill-mode: both;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+    transition: all ease-in-out;
+    max-width: 77vh;
+}
+@keyframes bounce 
+{
+    from {bottom: 0px;}
+    to {bottom: 30px; }
+}
+
+@media(max-width:991px)
+{
+    .section-one .two .row .right img
+    {
+        animation-name: none;
+    }
+}
+
+  
+.section-one .all .row img
+{
+    width: 90px;
+} 
+.section-one .all
+{
+    background-color: #f3f9fd;
+    padding: 30px 20px ; 
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.section-one .all .row img
+{
+    /* opacity: .2; */
+    color: #484848;
+    filter: grayscale(100%);
+}
+
+.section-one .all .row img:hover
+{
+    /* opacity: 1; */
+    filter: grayscale(0%);
+}
+/* End First Section  */
+
+/* Start Second Section  */
+
+.section-two .top h2, .section-three .top h2 , .section-four .top h2
+{
+    position: relative;
+    max-width: 450px;
+    margin: 50px auto;
+    text-align: center;
+}
+.hr:before
+{
+    content: " ";
+    height: 2px;
+    width: 60px;
+    background-color: #3498db;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 70px;
+}
+.hr:after
+{
+    content: " ";
+    height: 2px;
+    width: 60px;
+    background-color: #3498db;
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 70px;
+}
+.section-two .row i,p
+{
+    display:inline-block;
+}
+/* .section-two .row .move 
+{
+    opacity: 0;
+    transform: scale(0.1);
+    transition: all 1s ease-in-out;
+}
+.active
+{
+    opacity: 1;
+    transform: scale(1);
+
+} */
+.section-two .row ul
+{
+    list-style: none;
+}
+.section-two .row ul li i
+{
+    color: #3498db;
+    margin-left: -25px;
+}
+.section-two .row ul li p
+{
+    font-family: 'Open Sans', sans-serif;
+    color: #444444;
+}
+.section-two .bottom .row img
+{
+    max-width: 90%;
+    height: auto;
+}
+.section-two .bottom .row .one i, .section-two .bottom .row .one h2
+{
+    display: inline-block;
+}
+.section-two .bottom .row .one p
+{
+    margin-left: 20px;
+}
+.section-two .bottom .row .journal
+{
+    margin-top: -10px;
+}
+.section-two .bottom .row  i
+{
+    color: #3498db;
+    font-size: 2.3rem;
+    margin-left: -31px;
+    padding-right: 7px;
+    margin-top: 5px;
+}
+.section-two .bottom .row .special i
+{
+    margin-left: -23px;
+}
+.MeToo
+{
+    margin-left: -18px;
+}
+.section-two .row button:hover a
+{
+    text-decoration: none;
+    color: #fff;
+
+}
+/* @media (max-height:30px)
+{
+    .section-one .fix
+    {
+        box-shadow: 0 2px 4px 0 rgba(119, 117, 117, 0.2);
+    }
+} */
+/* End Second Section  */
+
+/* Start Third Section  */
+
+.section-three .top p , .section-four .top p
+{
+    color: #444444;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    margin-top: -10px;
+}
+.section-three .bottom .row i
+{
+    padding-top: 10px;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background: #3498db;
+    color: #fff;
+    font-size: 30px;
+    margin: 5px auto 20px 0px;
+    padding: auto 5px;
+    /* transition: all 0.3s ease-in-out; */
+}
+.section-three .bottom .row .back
+{
+    box-shadow: 0 0 10px rgb(97, 95, 95);
+    box-shadow: 0 0 10px 1px rgb(228, 223, 223);
+}
+.section-three .bottom .row .back h3 a
+{
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    color: #111111;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+.section-three .bottom .row .back p
+{
+    color: #444444;
+}
+.section-three .bottom .row .back::before
+{
+    content: "";
+    position: absolute;
+    background: #e1f0fa;
+    right: -60px;
+    top: -40px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    transition: all 0.3s;
+    z-index: -1;
+    overflow-x: hidden;
+    /* transform-origin: bottom center;
+    transform: scaleY(0);
+    transition: transform 0.3s; */
+
+}
+.section-three .bottom .row .back
+{
+    overflow: hidden;
+    position: relative;
+}
+.section-three #div1:hover ,.section-three #div2:hover,.section-three #div3:hover,.section-three #div4:hover
+{
+    background-image: linear-gradient(to bottom left , #3498D8 , #3498D8);
+    transition: all .6s ease-in-out;
+
+}
+.section-three #div1:hover i ,.section-three #div2:hover i ,.section-three #div3:hover i ,.section-three #div4:hover i
+{
+    background-color: #fff;
+    color: #3498D8;
+}
+.section-three #div1:hover p ,.section-three #div2:hover p ,.section-three #div3:hover p ,.section-three #div4:hover p
+{
+    color: #fff;
+}
+.section-three #div1:hover a ,.section-three #div2:hover a ,.section-three #div3:hover a ,.section-three #div4:hover a
+{
+    color: #fff;
+}
+
+
+.section-three .services
+{
+    margin-top: 50px;
+}
+.section-three .services .row  .num1
+{
+    background-image: url("../images/sevice1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 250px 10px 5px 10px;
+    margin-bottom: 15px;
+    margin-right: 15px;
+}
+.section-three .services .row  .num1 .inside ,.section-three .services .row  .num2 .inside ,.section-three .services .row  .num3 .inside ,.section-three .services .row  .num4 .inside 
+{
+    /* z-index: 10; */
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 15px 25px;
+    transition: 0.3s;
+    transition: ease-in-out 0.4s;
+    border-radius: 5px
+}
+.section-three .services .row  .num1 .inside:hover ,.section-three .services .row  .num2 .inside:hover,.section-three .services .row  .num3 .inside:hover ,.section-three .services .row  .num4 .inside:hover 
+{
+    background-color: #3498D8;
+}
+.section-three .services .row  .num1 .inside h5 a ,.section-three .services .row  .num2 .inside h5 a,.section-three .services .row  .num3 .inside h5 a,.section-three .services .row  .num4 .inside h5 a
+{
+    text-decoration: none;
+    color: #222222;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+.section-three .services .row  .num1 .inside:hover h5 a ,.section-three .services .row  .num2 .inside:hover h5 a,.section-three .services .row  .num3 .inside:hover h5 a,.section-three .services .row  .num4 .inside:hover h5 a ,
+.section-three .services .row  .num1 .inside:hover p ,.section-three .services .row  .num2 .inside:hover p,.section-three .services .row  .num3 .inside:hover p,.section-three .services .row  .num4 .inside:hover p, .section-three .services .row  .num1 .inside:hover .block i ,.section-three .services .row  .num2 .inside:hover .block i,.section-three .services .row  .num3 .inside:hover .block i,.section-three .services .row  .num4 .inside:hover .block i , .section-three .services .row  .num1 .inside:hover .block a ,.section-three .services .row  .num2 .inside:hover .block a,.section-three .services .row  .num3 .inside:hover .block a,.section-three .services .row  .num4 .inside:hover .block a 
+{
+    color: #fff;
+}
+.section-three .services .row  .num1 .inside p ,.section-three .services .row  .num2 .inside p,.section-three .services .row  .num3 .inside p,.section-three .services .row  .num4 .inside p
+{
+    color: #5E5E5E;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+.section-three .services .row  .num1 .inside .block i ,.section-three .services .row  .num2 .inside .block i,.section-three .services .row  .num3 .inside .block i,.section-three .services .row  .num4 .inside .block i
+{
+    color: #777777;
+}
+.section-three .services .row  .num1 .inside .block a ,.section-three .services .row  .num2 .inside .block a,.section-three .services .row  .num3 .inside .block a,.section-three .services .row  .num4 .inside .block a
+{
+    color: #777777;
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+}
+.section-three .services .row  .num2
+{
+    background-image: url("../images/service2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 250px 10px 30px 10px;
+    margin-bottom: 15px;
+
+}
+.section-three .services .row  .num3
+{
+    background-image: url("../images/service3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 250px 10px 30px 10px;
+    margin-right: 15px;
+
+}
+.section-three .services .row  .num4
+{
+    background-image: url("../images/service4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 250px 10px 30px 10px;
+}
+/* End Section Three  */
+
+/* Start Section Four  */
+
+.section-four .top p
+{
+    color: #444444;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    margin-top: -15px;
+}
+.section-four .bottom .one .box1 , .two .box1, .three .box1
+{
+    background-color: #F6F6F6;
+    padding: 20px;
+    margin: 6px 5px;
+}
+
+/* .section-four .bottom .one .box1
+{
+    margin-right: 5px;
+} */
+.section-four .bottom i
+{
+    font-size: 32px;
+}
+.section-four .bottom a
+{
+    color: #444444;
+    font-size: 16px;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+.section-four .bottom a:hover
+{
+    color: #3498db;
+    transition: all .1s ease-in-out;
+}
+
+
+
+.shadow
+{
+    box-shadow: 0 2px 4px 0 rgba(119, 117, 117, 0.2);
+}
+/* 
+@media(max-width:991px)
+{
+    .section-four .bottom .row .one .box1
+    {
+        max-width: 30%;
+    }
+    .section-four .bottom .row    {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+
+       
+    }
+    
+} */
+
